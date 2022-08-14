@@ -1,0 +1,67 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.title {
+    width: calc(100% / 3 - 1%);
+    margin-right: 1%;
+    background-color: rgb(165, 49, 165); 
+}
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(239, 239, 40);
+    padding-left: 1%;
+    padding-bottom: 2%;
+    text-align: start;
+    vertical-align: middle;
+}
+
+#icon-menu1, #icon-menu2, #icon-menu3  {
+    width: 30px;
+    height: 30px;
+    padding-top: 5%;
+}
+
+#title1OpenMenu, #title2OpenMenu, #title3OpenMenu {
+    display: none;
+}
+
+#icon-menu1 {
+    margin-left: 50%;
+
+}
+
+#icon-menu2 {
+    margin-left: 40%;
+}
+
+#icon-menu3 {
+    margin-left: 3%;
+}
+
+.openMenu {
+    font-size: 20px;
+    color: white;
+    width: calc(100% / 3 - 1%);
+    background-color: rgb(162, 18, 169);
+}
+
+.title-name {
+    font-size: 26px;
+    color: rgba(20, 227, 179, 0.982);
+    font-weight: 700;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+body {
+    max-width: 1000px;
+    width: 100%; 
+    margin: 0 auto; 
+    background-color: rgba(137, 43, 226, 0.119);
+}
