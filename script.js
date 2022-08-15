@@ -24,8 +24,7 @@ function openMenu1() {
 			isOpen1 = true // установить открытым
         
 		}
-     
-	}
+ 	}
 }
 
 function openMenu2() {
@@ -46,9 +45,7 @@ function openMenu2() {
          changeIcon2.src = "arrow_up_icon.png"
 			isOpen2 = true // установить открытым
 		}
-     
-	}
-
+ 	}
 }
 
 function openMenu3() {
@@ -69,9 +66,7 @@ let openMenu3 = document.getElementById("title3OpenMenu")
          changeIcon3.src = "arrow_up_icon.png"
 			isOpen3 = true // установить открытым
 		}
-     
-	}
-
+    }
 }
 
 
