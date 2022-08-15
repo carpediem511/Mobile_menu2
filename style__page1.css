@@ -46,8 +46,42 @@ button {
 .openMenu {
     font-size: 20px;
     color: white;
-    width: calc(100% / 3 - 1%);
-    background-color: rgb(162, 18, 169);
+    width: calc(100% / 4.5 - 3.2%);
+    background-color: rgba(162, 18, 169, 0.405);
+    position: absolute;
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.openMenu2 {
+    font-size: 20px;
+    color: white;
+    width: calc(100% / 4.5 - 3.2%);
+    background-color: rgba(162, 18, 169, 0.405);
+    position: absolute;
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 21.7%;
+}
+
+.openMenu3 {
+    font-size: 20px;
+    color: white;
+    width: calc(100% / 4.5 - 3.2%);
+    background-color: rgba(162, 18, 169, 0.405);
+    position: absolute;
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 43.4%;
 }
 
 .title-name {
@@ -65,3 +99,7 @@ body {
     margin: 0 auto; 
     background-color: rgba(137, 43, 226, 0.119);
 }
+
+
+  
+
