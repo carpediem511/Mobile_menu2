@@ -9,7 +9,6 @@
     margin-right: 1%;
     background-color: rgb(165, 49, 165); 
     align-items: center;
-    margin-bottom: 2%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
@@ -44,19 +43,20 @@ button {
     padding-right: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-left: -2%;
+    width: calc(100% / 3 - 3%);
 }
 
 .openMenu {
-    width: calc(100% / 3 - 3.2%);
+    width: calc(100% / 3 - 3.1%);
+    margin-left: 0.1%;
 }
 
 .openMenu2 {
-    width: calc(100% / 3 - 2.9%);
     margin-left: 33.2%;
 }
 
 .openMenu3 {
-    width: calc(100% / 3 - 2.9%);
     margin-left: 66.8%;
 }
 
@@ -84,18 +84,18 @@ body {
     .title {
         width: calc(85%);
         display: flex;
-        margin-bottom: 2%;
         font-size: 20px;
+        margin-bottom: 2%;
     }
 
     .openMenu, .openMenu2, .openMenu3 {
-        font-size: 16px;
-        width: calc(82.8%);
+        font-size: 18px;
+        width: calc(83%);
         background-color: rgb(194, 253, 253);
         color: rgb(93, 91, 91);
         position: static;
         margin-top: 0;
         margin-bottom: 3%;
-        margin-left: 0;
+        margin-left: -1%;
     }
 }
